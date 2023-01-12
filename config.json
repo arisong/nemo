@@ -1,0 +1,14 @@
+{
+    "compression": {
+        "summarisation_model": "bart"
+    },
+    "summarisation": {
+        "number_of_words_minimum": 200,
+        "number_of_words_maximum": 400,
+        "truncation": true,
+        "number_of_beams": 4,
+        "repetition_penalty": 1.2,
+        "length_penalty": 1.5,
+        "early_stopping": true
+    }
+}
